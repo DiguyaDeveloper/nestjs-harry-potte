@@ -1,0 +1,55 @@
+2021-05-30T13:47:58-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T13:51:40-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T13:52:57-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:17:53-03:00 [[31MERROR[39M][31muncaughtException: Request failed with status code 401[39m
+[31mError: Request failed with status code 401[39m
+[31m    at createError (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\axios\lib\core\createError.js:16:15)[39m
+[31m    at settle (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\axios\lib\core\settle.js:17:12)[39m
+[31m    at IncomingMessage.handleStreamEnd (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\axios\lib\adapters\http.js:260:11)[39m
+[31m    at IncomingMessage.emit (events.js:327:22)[39m
+[31m    at endReadableNT (internal/streams/readable.js:1327:12)[39m
+[31m    at processTicksAndRejections (internal/process/task_queues.js:80:21)[39m
+Error: Request failed with status code 401
+    at createError (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\axios\lib\core\createError.js:16:15)
+    at settle (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\axios\lib\core\settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\axios\lib\adapters\http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+2021-05-30T14:23:49-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:39:07-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:41:03-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:42:39-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:45:10-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:46:16-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T14:47:18-03:00 [[31MERROR[39M][31mGet houses[39m
+2021-05-30T23:43:05-03:00 [[31MERROR[39M][31mFind Characters[39m
+2021-05-30T23:52:42-03:00 [[31MERROR[39M][31mFind Characters[39m
+2021-06-04T22:53:03-03:00 [[31MERROR[39M][31mCannot read property 'school' of undefined[39m
+TypeError: Cannot read property 'school' of undefined
+    at CharactersService.create (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\services\characters.service.js:43:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CharactersController.createCharacters (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\controller\characters.controller.js:26:24)
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17
+2021-06-04T22:57:41-03:00 [[31MERROR[39M][31mCannot read property 'school' of undefined[39m
+TypeError: Cannot read property 'school' of undefined
+    at CharactersService.create (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\services\characters.service.js:44:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CharactersController.createCharacters (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\controller\characters.controller.js:26:24)
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17
+2021-06-04T22:59:01-03:00 [[31MERROR[39M][31mCannot read property 'school' of undefined[39m
+TypeError: Cannot read property 'school' of undefined
+    at CharactersService.create (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\services\characters.service.js:44:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CharactersController.createCharacters (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\controller\characters.controller.js:26:24)
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17
+2021-06-04T23:00:11-03:00 [[31MERROR[39M][31mCannot read property 'school' of undefined[39m
+TypeError: Cannot read property 'school' of undefined
+    at CharactersService.create (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\services\characters.service.js:44:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CharactersController.createCharacters (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\controller\characters.controller.js:27:24)
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
+    at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17
