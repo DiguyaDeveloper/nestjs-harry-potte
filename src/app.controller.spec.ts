@@ -4,6 +4,7 @@ import { AppModule } from './app.module';
 import { AppService } from './app.service';
 import { SharedModule } from './shared/shared.module';
 import { HttpModule } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
 
 class AppControllerMock {
   get() {
@@ -22,12 +23,12 @@ describe('AppController', () => {
     const AppServiceProvider = {
       provide: AppService,
       useValue: {
-        getHello: jest.fn(),
+        getHello: () => 'Hello World!',
       },
     };
 
     const app: TestingModule = await Test.createTestingModule({
-      imports: [AppModule, HttpModule, SharedModule],
+      imports: [HttpModule, SharedModule],
       controllers: [AppController],
       providers: [
         AppService,
