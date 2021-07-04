@@ -5,6 +5,7 @@ import { WinstonModule } from 'nest-winston';
 import { SharedModule } from '../../../shared/shared.module';
 import { HogwartsService } from '../../hogwarts/services/hogwarts.service';
 import { Characters } from '../models/characters.entity';
+import { CreateCharactersDto } from '../models/dto/create-characters.dto';
 import { CharactersService } from '../services/characters.service';
 import { CharactersController } from './characters.controller';
 
@@ -47,5 +48,18 @@ describe('CharactersController', () => {
 
   it('should be defined', () => {
     expect(controller).toBeDefined();
+  });
+
+  it('should be call create', () => {
+    spyOn(controller, 'createCharacters').and.returnValue({});
+
+    const request: CreateCharactersDto = {
+      name: '',
+      role: '',
+      school: '',
+      patronus: '',
+    };
+    const req = controller.createCharacters(request);
+    expect(controller).toEqual(req);
   });
 });

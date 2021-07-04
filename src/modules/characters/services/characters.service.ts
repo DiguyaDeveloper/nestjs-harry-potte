@@ -58,12 +58,13 @@ export class CharactersService implements CharactersInterface {
       this.logger.error('Find Characters');
     }
   }
-  async update(characterDto: CharactersDto, id: string): Promise<Characters> {
+  async update(characterDto: CharactersDto): Promise<Characters> {
     try {
       this.logger.info('Calling repository update()', {
         controller: CharactersService.name,
       });
 
+      const id = characterDto.id;
       const characters = await this.repo.save({ ...characterDto, id });
       return characters;
     } catch (error) {

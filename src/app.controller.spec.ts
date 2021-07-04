@@ -1,10 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
-import { AppModule } from './app.module';
 import { AppService } from './app.service';
 import { SharedModule } from './shared/shared.module';
 import { HttpModule } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
 
 class AppControllerMock {
   get() {

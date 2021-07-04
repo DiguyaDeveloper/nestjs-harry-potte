@@ -53,3 +53,4 @@ TypeError: Cannot read property 'school' of undefined
     at async CharactersController.createCharacters (A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\dist\modules\characters\controller\characters.controller.js:27:24)
     at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-execution-context.js:46:28
     at async A:\Dextra\nestjs-desafio-harry-potter\ceccoff-dextra-potter-nestjs\node_modules\@nestjs\core\router\router-proxy.js:9:17
+Jul-04-2021 11:54:02 [[31MERROR[39M]Find Houses
